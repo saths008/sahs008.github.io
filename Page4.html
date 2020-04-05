@@ -1,0 +1,124 @@
+<!-- This will use bootstrap first marker will be the navigation-->
+<!Doctype html>
+<html>
+    <body>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Anime Website</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+    
+
+        <!--Navigation-->
+
+<nav class="navbar navbar-light bg-light">
+
+<!--this is me desgining the navigation bar at the top of the page, classes give thing properties, especially when I am using bootstrap. .navbar-expand-md this means there is a vertical navbar on medium screens
+    .navbar-dark meaning there will be white text  .bg-light means that the navbar will be coloured grey.
+    .fixed-top means that the navbar wll appear however far I scroll down--->
+
+    <!--Brand (the logo on the top left of the screen)-->
+    <a class="navbar-brand" href="index.html">
+        <img src="animelogo.png" alt="Logo of the Website" style="width: 40px;">Anime</a>
+
+        <!--Toggler/Collapsible Button-->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#thetoplinksofthepage">
+    
+    <span class="navbar-toggler-icon"></span>
+   
+    </button>
+   <!--#thetoplinksofmypage-->
+    <div class="collapse navbar-collapse" id="thetoplinksofthepage">
+     <ul class="navbar-nav ml-auto">
+      <!--.ml-auto means margin left so the elements within that tage are pushed to the right-->
+      
+      <li class="nav-item active">
+            <a href="Page1.html">Beginner Animes</a>
+        </li>
+
+
+        <li class="nav-item">
+            <a href="Page2.html">Intermediate Animes</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#">Expert Animes</a>
+         </li>
+
+         <li class="nav-item">
+            <a href="Page4.html">Favourite Characters</a>
+        </li>
+         <li class="nav-item">
+             <a href="login.html">Login</a>
+         </li>
+
+         
+     </ul>
+
+    </div>
+
+</nav>
+           
+
+<div class="container-fluid bg-light" id="top10characters">
+    <h1> Random Anime Generator</h1>
+    <h3>Click on the button below to generate a new anime to watch!</h6>
+
+</div>
+<div id="listofanimes"> <a href=""><button type="button" class="btn btn-outline-secondary bg-light">
+    
+<script>
+    var listofanimes=[
+    "Naruto",
+"Fairy tail",
+"Seikoku no Doraguna",
+"Hosizora e kakaru hashi",
+"seirei tsukei no bureidodansu",
+"zero no tsukaima",
+"sakura sou no pet kanojo",
+"yamada-kun no 7 min no majo",
+"isekai wa sumatopon",
+"re zero",
+"seiren",
+"Maid-sama",
+"koi to sakyo to chocolate",
+"masamune-kun no revenge",
+"campiogne",
+"hundred",
+"Rakudai kishi no cavalry",
+"roku de nashi majutsu koushi to akashic records",
+"sword art online",
+"strike the blood",
+"nijiro days",
+"trinity seven",
+"seiken tsukai no world break",
+"gakusen toshi asterix",
+"gamers!",
+"aoharu ride",
+];
+
+var randomItem = listofanimes[Math.floor(Math.random()*listofanimes.length)];
+
+
+document.write(randomItem);
+var result= radnomItem.fontcolor("blue");
+</script>
+
+</div>
+
+</button></a>
+
+
+
+
+
+
+    </body>

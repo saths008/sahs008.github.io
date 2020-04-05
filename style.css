@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body nav ul li a{
+    color:black;
+    padding:10px;
+   
+}
+
+body nav ul li{
+    padding: 20px 10px 20px 0px;
+}
+
+.carousel-inner img{
+width: 60%; 
+margin: 1px auto;
+display: block;
+}
+
+.site-content {
+    overflow: hidden;
+}
+
+.Top10animebeginners{
+    font-size: 12px
+}
+
+form{
+    display:block
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+  
+    margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}  
+#listofanimes{
+    font-size: 30px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    background-image: url(https://scitechdaily.com/images/Stock-Photo-Representing-Quantum-Symmetry-777x518.jpg);
+}
+
+#top10characters h3{
+    position: absolute;
+    left:35%;
+    color:palevioletred;
+    font-weight: bolder;
+    padding:0px 60px 0px 0px;
+    text-align: center;
+    text-decoration: underline;
+    top:25%
+
+   
+}
